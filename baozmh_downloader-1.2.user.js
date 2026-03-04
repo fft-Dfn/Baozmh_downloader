@@ -3,11 +3,13 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.2
 // @description  在包子漫画目录页添加下载按钮，静默解析当前章节图片并下载
-// @author       Gemini
+// @author       fft-Dfn
 // @match        https://www.baozimh.com/comic/*
 // @match        https://www.twmanga.com/comic/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_download
+// @updateURL    https://raw.githubusercontent.com/fft-Dfn/Baozmh_downloader/main/baozmh_downloader.user.js
+// @downloadURL  https://raw.githubusercontent.com/fft-Dfn/Baozmh_downloader/main/baozmh_downloader.user.js
 // ==/UserScript==
 
 (function() {
